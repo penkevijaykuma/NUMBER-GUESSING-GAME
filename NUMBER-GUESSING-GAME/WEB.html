@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">NUMBER GUESSING GAME</h1>
+    <div class="container">
+        <h1>Guess the Number Game</h1>
+        <div>
+            <label for="lower">Enter Lower Bound: </label>
+            <input type="number" id="lower" placeholder="Lower bound">
+        </div>
+        <div id="upperInput" style="display:none;">
+            <label for="upper">Enter Upper Bound: </label>
+            <input type="number" id="upper" placeholder="Upper bound">
+        </div>
+        <button id="startGame" style="display:none;">Start Game</button>
+
+        <div id="gameSection" style="display:none;">
+            <p id="chancesMessage"></p>
+            <input type="text" id="guess" placeholder="Guess a number" class="glow-box" style="color:rgba(13, 206, 65, 0.913);font-weight:bold;">
+            <button id="submitGuess">Submit Guess</button>
+
+            <p id="feedback" style="color: rgb(213, 18, 41); font-size: 1.2em;"></p>
+            <p id="message"></p>
+        </div>
+
+        <!-- Reset Game Button Added at the End -->
+        <button id="resetGame" style="display:none; margin-top: 20px;">Reset Game</button>
+
+        <div id="flowerContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.title {
+    color: rgb(219, 232, 31);
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+    text-shadow: 
+        0 0 5px rgb(6, 223, 75),
+        0 0 10px rgba(0, 255, 255, 0.8),
+        0 0 15px rgba(0, 255, 255, 0.6),
+        0 0 20px rgba(0, 200, 200, 0.4),
+        0 0 30px rgba(0, 150, 150, 0.2);
+    background: linear-gradient(45deg, rgba(121, 6, 73, 0.8), rgba(255, 100, 100, 0.8));
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    background-color: rgba(232, 50, 50, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-top: 70px;
+}
+
+
+
+h1 {
+    color: #ffeb3b;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+input[type="number"], button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+input[type="number"] {
+    background-color: #ffffff;
+    color: #e51e1e;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* #gameSection {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    color: black;
+} */
+#gameSection {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(192, 155, 177, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(12, 85, 193, 0.7), 
+                0 0 30px rgba(4, 247, 247, 0.6), 
+                0 0 40px rgba(0, 255, 255, 0.5), 
+                0 0 50px rgba(26, 203, 203, 0.4); /* Glowing effect */
+    color: black;
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+#gameSection:hover {
+    box-shadow: 0 0 20px rgb(28, 113, 224), 
+                0 0 30px rgba(0, 255, 255, 0.8), 
+                0 0 40px rgba(0, 255, 255, 0.6), 
+                0 0 50px rgba(234, 113, 218, 0.5); /* Intense glow on hover */
+}
+
+
+#chancesMessage {
+    font-weight: bold;
+}
+
+#message {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #f44336;
+}
+
+.wrapper {
+    width: 100px;
+    height: 30px;
+    background-color: rgba(11, 11, 11, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.left {
+    transform: rotate(-10deg);
+}
+
+.right {
+    transform: rotate(10deg);
+}
+
+.congratulation-message {
+    font-weight: bold;
+    color: #ffeb3b;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.glow-box {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #ffffff; /* White border */
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 
+                0 0 20px rgba(255, 255, 255, 0.6), 
+                0 0 30px rgba(0, 255, 255, 0.5), 
+                0 0 40px rgba(0, 255, 255, 0.4); /* Glowing effect */
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background for contrast */
+    color: #fff; /* White text color */
+    transition: box-shadow 0.3s ease;
+}
+
+.glow-box:focus {
+    box-shadow: 0 0 15px rgb(216, 144, 62), 
+                0 0 25px rgba(0, 255, 255, 0.8), 
+                0 0 35px rgba(0, 255, 255, 0.6), 
+                0 0 45px rgba(58, 17, 50, 0.5); 
+}
